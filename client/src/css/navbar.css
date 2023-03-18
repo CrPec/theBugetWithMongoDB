@@ -1,0 +1,56 @@
+.navbarContainer {
+  height: 75px;
+}
+
+.navbar {
+  background: #7b4b94;
+}
+
+.logo {
+  padding: 0 10px;
+  align-self: flex-start;
+  color: #ffffff;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  justify-content: space-between;
+}
+
+.createItem {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #b7e3cc;
+  position: relative;
+  cursor: pointer;
+}
+
+.createItem::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #ffffff;
+  height: 10px;
+  margin-top: -5px;
+  top: 50%;
+  left: 5px;
+  right: 5px;
+  z-index: 9;
+}
+
+.createItem::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #ffffff;
+  width: 10px;
+  margin-left: -5px;
+  left: 50%;
+  top: 5px;
+  bottom: 5px;
+  z-index: 9;
+}
+
+.createItem:hover {
+  transform: scale(1.1);
+}

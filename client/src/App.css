@@ -1,0 +1,21 @@
+body {
+  background-color: #7d82b8 !important;
+  color: #ffffff !important;
+}
+
+.containerDiv {
+  margin: 20px;
+}
+
+.button {
+  min-width: 100px;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  padding: 0 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}

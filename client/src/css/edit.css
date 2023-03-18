@@ -1,0 +1,9 @@
+.update {
+  background-color: #b7e3cc;
+  color: white;
+}
+
+.update:hover {
+  background-color: #7aeeb2;
+  transform: scale(1.1);
+}

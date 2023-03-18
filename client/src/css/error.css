@@ -1,0 +1,13 @@
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.home {
+  background-color: #b7e3cc;
+  color: white;
+  margin-top: 50px;
+}
